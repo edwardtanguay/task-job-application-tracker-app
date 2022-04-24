@@ -22,7 +22,7 @@ function App() {
 									</div>
 								</div>
 							) : (
-								<div>list</div>
+								<li key={index}>list</li>
 							)}
 						</>
 					);
